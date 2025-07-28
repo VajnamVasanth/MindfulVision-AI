@@ -1,0 +1,407 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Production builds
+dist/
+dist-ssr/
+build/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+backend/venv/
+backend/env/
+
+# Python packages
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Machine Learning Models and Data
+*.h5
+*.pkl
+*.model
+*.tfmodel
+*.tflite
+*.pt
+yoga-kaggle-dataset/dataset/*
+!yoga-kaggle-dataset/dataset/.gitkeep
+
+# ML scripts not to be tracked
+create_ml_structure.py
+
+# Documentation and setup files not to be tracked
+PROJECT_FUNCTIONALITIES_DETAILED.md
+TECHNOLOGY_STACK_DOCUMENTATION.md
+TENSORFLOW_SETUP.md
+
+# Ignore yoga-dataset folder
+yoga-dataset/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# ML Model files (usually large)
+*.pkl
+*.h5
+*.hdf5
+*.model
+*.joblib
+*.pickle
+models/
+model_files/
+yoga-kaggle-dataset/
+high_accuracy_model.pkl
+
+# Dataset files (usually large)
+*.csv
+*.json
+datasets/
+data/
+images/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+
+# Allow essential dataset files
+!datasets/sample/
+!datasets/examples/
+!datasets/README.md
+!datasets/schema.json
+!datasets/metadata.json
+!data/sample/
+!data/examples/
+!data/README.md
+!data/schema.json
+!data/metadata.json
+
+# Allow small essential images
+!public/images/
+!src/assets/images/
+!*.sample.jpg
+!*.sample.png
+!*.example.jpg
+!*.example.png
+
+# Yoga Kaggle Dataset - Backend files
+yoga-kaggle-dataset/venv/
+yoga-kaggle-dataset/dataset/
+yoga-kaggle-dataset/*.csv
+yoga-kaggle-dataset/*.pkl
+yoga-kaggle-dataset/high_accuracy_model.pkl
+yoga-kaggle-dataset/pose_classifier.pkl
+
+# Allow essential backend files
+!yoga-kaggle-dataset/*.py
+!yoga-kaggle-dataset/README.md
+!yoga-kaggle-dataset/requirements.txt
+!yoga-kaggle-dataset/config.py
+!yoga-kaggle-dataset/app.py
+
+# API keys and secrets
+config.py
+secrets.py
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Additional Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Flask specific
+instance/
+.webassets-cache
+
+# React/Vite specific
+.vite/
+*.tsbuildinfo
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+
+# Documentation
+docs/_build/
+
+# Local development
+.local/
+local/
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Local configuration
+config.local.js
+settings.local.json
+
+# Browser cache
+.cache/
+.parcel-cache/
+
+# System files
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDE specific
+.vscode/settings.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+logs/
+log/
+
+# Environment files
+.env*
+!.env.example
+
+# Python virtual environments
+venv/
+env/
+ENV/
+.venv/
+backend/venv/
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+build/
+dist/
+out/
+.next/
+.nuxt/
+
+# Coverage reports
+coverage/
+.nyc_output/
+htmlcov/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Linux
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
